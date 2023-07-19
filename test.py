@@ -6,9 +6,9 @@ def encode(password):
 
 
 def decode(password):
-    decoded = ""
+    decoded = ''
     for i in range(len(password)):
-        decoded += str((int(password[i]) - 3) % 10)
+        decoded = + str(int([password[i]]-3) % 10)
     return decoded
 
 
